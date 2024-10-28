@@ -1,0 +1,49 @@
+body{
+    font-family: "Inter", sans-serif;
+}
+
+h1,h2,h3,h4,h5,p{
+    margin: 0;
+    padding: 0;
+}
+
+#contenedorPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vb;
+    gap: 10px;
+}
+
+#contenedorPrincipal h2{
+    font-size: 1.6em
+}
+
+#contenedorInput{
+    display: flex;
+    gap: 6px;
+}
+
+#contenedorInput input{
+    border: 1px solid #bebebe;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+#contenedorInput button{
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 12px;
+    cursor: pointer;
+}
+
+#btnReiniciar{
+    background-color: black;
+    width: 50%;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 12px;
+    cursor: pointer;
+}
